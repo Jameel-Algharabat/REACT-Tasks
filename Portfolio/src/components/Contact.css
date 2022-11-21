@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Architects+Daughter&family=Caveat+Brush&display=swap');
+        .nav{
+            font-family: 'Architects Daughter', cursive;
+            margin-left: 100px;
+
+        }
+        .nav2{
+            font-family: 'Architects Daughter', cursive;
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+        .contact {
+            display: grid;
+            grid-template-columns: 300px auto;
+            gap: 180px;
+            background-color: #afeeee;
+            
+        }
+
+        body {
+            background-color: #afeeee;
+        }
+
+        .margin {
+            margin-top: 60px;
+            margin-left: 220px;
+            width: 250px;
+            height: 500px;
+        }
+
+        .text1 {
+            font-family: 'Architects Daughter', cursive;
+            font-size: 50px;
+        }
+
+        .text2 {
+            font-family: 'Architects Daughter', cursive;
+            font-size: 35px;
+
+        }
+        .text3{
+            font-family: 'Architects Daughter', cursive;
+            font-size: 20px;
+        }
+
+
+        .end-page-grid {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 5px;
+            background-color: #e0ffff;
+            height:auto;
+            text-align: center;
+
+        }
+        @media (max-width:900px){
+
+
+            .margin {
+            margin-top: 60px;
+            margin-left: 60px;
+            width: 200px;
+            height: 800px;
+        }
+        .contact {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 100px;
+            background-color: #afeeee;
+            height: auto;
+        }
+
+        }
+        @media (max-width:550px){
+            .contact {
+            display: grid;
+            grid-template-columns: auto ;
+            gap: 180px;
+            background-color: #afeeee;
+            height: auto;
+        }
+        .margin {
+            margin-top: 60px;
+            margin-left: 20px;
+            width: 250px;
+            height: auto;
+        }
+        
+        }
